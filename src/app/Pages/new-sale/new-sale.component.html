@@ -1,0 +1,28 @@
+<div class="container-fluid shadow rounded-4">
+    <div class="row border rounded-4">
+        <div class="row m-2">
+            <div class="col-md-12 text-end">
+                <button class="btn btn-danger" (click)="goToList()">Close</button>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <form #newPurchase="ngForm" (ngSubmit)="onSubmit(newPurchase)">
+                <input type="text" placeholder="Invoice No" class="form-control mt-2 mb-2">
+                <input type="text" placeholder="Customer" class="form-control mb-2">
+                <input type="number" placeholder="Phone No." class="form-control mb-2">
+                <input type="date" class="form-control mb-2">
+                <select name="product" class="form-control mb-2">
+                    <option selected>Select Product</option>
+                    <option value="ayush">ayush</option>
+                    <option value="prashik">prahsik</option>
+                    <option value="omkar">omkar</option>
+                </select>
+                <input type="number" placeholder="Quantity" class="form-control mb-2">
+                <input type="number" placeholder="Total Amount" class="form-control mb-2">
+                <div class="buttons d-flex flex-row-reverse m-3 text-center">
+                    <input type="submit" class="btn btn-success" value="Save">
+                </div>
+            </form>
+        </div> 
+    </div>
+</div>

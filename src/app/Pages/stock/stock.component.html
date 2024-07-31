@@ -1,0 +1,28 @@
+<div class="container-fluid mt-2">
+    <div class="card">
+        <div class="card-header bg-secondary">
+            <h5 class="text-center text-white">Stock List</h5>
+        </div>
+        <div class="card-body">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Sr No</th>
+                        <th>Product Name</th>
+                        <th>Modified Date</th>
+                        <th>Quantity</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of stockList;">
+                        <td>1</td>
+                        <td>{{item.productName}}</td>
+                        <td>{{item.lastModifiedDate}}</td>
+                        <td>{{item.quantity}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

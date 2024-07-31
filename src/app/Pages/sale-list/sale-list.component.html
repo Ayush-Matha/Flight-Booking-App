@@ -1,0 +1,31 @@
+<div class="container-fluid">
+  <div class="row m-3">
+    <div class="col-12 text-end">
+        <button class="btn btn-primary" routerLink="new-sale">New Sale</button>
+    </div>
+  </div>
+  <div class="newSaleContainer">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="cardContainer p-3 d-flex flex-wrap justify-content-evenly">
+            <div class="card m-2 shadow rounded-4" style="width: 20rem; height: 10rem;" *ngFor="let sale of saleList">
+                <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+                  <h6 class="card-subtitle mb-2 text-muted">{{sale.productName}}</h6>
+                    <div class="row w-100 text-center text-secondary">
+                      <div class="col-4">
+                        <p class="fw-bold">Date</p>
+                        <p>{{sale.saleDate}}</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="fw-bold">Quantity</p>
+                        <p>{{sale.quantity}}</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="fw-bold">Amount</p>
+                        <p>{{sale.totalAmount}}</p>
+                      </div>
+                    </div>
+                </div>
+            </div>
+  </div>
+</div>

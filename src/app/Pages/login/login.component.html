@@ -1,0 +1,15 @@
+<div class="container-fluid d-flex justify-content-center align-items-center min-vh-100">
+    <div class="loginCont border rounded-5 p-3 shadow" >
+        <form #loginCred="ngForm" (ngSubmit)="onLogin(loginCred)" class="d-flex flex-column">
+
+            <h3 class="text-center mb-4">Admin Login</h3>
+
+            <input type="text" class="form-control rounded-5 mb-2" name="usrName" placeholder="User Name" ngModel>
+
+            <input type="password" class="form-control rounded-5 mb-2" name="pass" placeholder="Password" ngModel>
+
+            <input type="submit" value="Login" class="btn btn-primary rounded-5 mb-2 mt-3">
+
+        </form>
+    </div>
+</div>

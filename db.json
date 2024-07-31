@@ -1,0 +1,206 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "purchaseList": [
+    {
+      "invoiceAmount": 15200,
+      "invoiceNo": "asd23cc",
+      "productId": 14,
+      "purchaseDate": "2024-05-23T12:42:00",
+      "purchaseId": 118,
+      "quantity": 1,
+      "supplierName": "Maruti Mobiles",
+      "productName": "Mi",
+      "id":"abc"
+    },
+    {
+      "invoiceAmount": 17500,
+      "invoiceNo": "dsf#3434",
+      "productId": 14,
+      "purchaseDate": "2024-05-23T12:37:00",
+      "purchaseId": 117,
+      "quantity": 1,
+      "supplierName": "Murlidhar Mobile ",
+      "productName": "Mi",
+      "id":"abc"
+    },
+    {
+      "invoiceAmount": 350000,
+      "invoiceNo": "321321",
+      "productId": 5,
+      "purchaseDate": "2024-05-23T22:46:00",
+      "purchaseId": 116,
+      "quantity": 14,
+      "supplierName": "Yash mobiles",
+      "productName": "HP",
+      "id":"abc"
+    },
+    {
+      "invoiceAmount": 100000,
+      "invoiceNo": "AAA-44",
+      "productId": 15,
+      "purchaseDate": "2024-01-08T00:00:00",
+      "purchaseId": 113,
+      "quantity": 9,
+      "supplierName": "ggg",
+      "productName": "OnePlus 9 Pro",
+      "id":"abc"
+    }
+  ],
+  "saleList": [
+    {
+      "mobileNo": "89563",
+      "invoiceNo": "5895",
+      "productId": 6,
+      "quantity": 2,
+      "saleDate": "2024-01-06T00:00:00",
+      "totalAmount": 50000,
+      "saleId": 26,
+      "productName": "Nokia"
+    },
+    {
+      "mobileNo": "12345678",
+      "invoiceNo": "b-12",
+      "productId": 1,
+      "quantity": 1,
+      "saleDate": "2023-12-06T00:00:00",
+      "totalAmount": 12345,
+      "saleId": 25,
+      "productName": "Apple Pro 15"
+    },
+    {
+      "mobileNo": "8787878787",
+      "invoiceNo": "qwefxas",
+      "productId": 2,
+      "quantity": 12,
+      "saleDate": "2023-11-29T00:00:00",
+      "totalAmount": 12,
+      "saleId": 24,
+      "productName": "Apple iPhone 14 (128 GB) - Blue"
+    },
+    {
+      "mobileNo": "65325632",
+      "invoiceNo": "ABC",
+      "productId": 2,
+      "quantity": 2,
+      "saleDate": "1995-02-02T00:00:00",
+      "totalAmount": 20000,
+      "saleId": 23,
+      "productName": "Apple iPhone 14 (128 GB) - Blue"
+    },
+    {
+      "mobileNo": "85246232",
+      "invoiceNo": "45",
+      "productId": 1,
+      "quantity": 0,
+      "saleDate": "2020-05-05T00:00:00",
+      "totalAmount": 60000,
+      "saleId": 22,
+      "productName": "Apple Pro 15"
+    },
+    {
+      "mobileNo": "456884895",
+      "invoiceNo": "dfs",
+      "productId": 1,
+      "quantity": 1,
+      "saleDate": "2023-11-02T00:00:00",
+      "totalAmount": 155,
+      "saleId": 21,
+      "productName": "Apple Pro 15"
+    },
+    {
+      "mobileNo": "1234567890",
+      "invoiceNo": "pun-283",
+      "productId": 1,
+      "quantity": 12,
+      "saleDate": "2023-11-08T00:00:00",
+      "totalAmount": 123,
+      "saleId": 20,
+      "productName": "Apple Pro 15"
+    }
+  ],
+  "stock": [
+    {
+      "createdDate": "2024-05-24T10:37:44.437",
+      "lastModifiedDate": "2024-05-24T10:41:44.51",
+      "productId": 14,
+      "quantity": 2,
+      "productName": "Mi",
+      "stockId": 9
+    },
+    {
+      "createdDate": "2024-05-23T19:44:28.01",
+      "lastModifiedDate": "2024-05-23T19:44:28.01",
+      "productId": 5,
+      "quantity": 14,
+      "productName": "HP",
+      "stockId": 8
+    },
+    {
+      "createdDate": "2024-01-08T14:57:59.62",
+      "lastModifiedDate": "2024-01-08T14:57:59.62",
+      "productId": 15,
+      "quantity": 9,
+      "productName": "OnePlus 9 Pro",
+      "stockId": 7
+    },
+    {
+      "createdDate": "2024-01-04T19:33:57.007",
+      "lastModifiedDate": "2024-01-05T19:10:14.053",
+      "productId": 6,
+      "quantity": 18,
+      "productName": "Nokia",
+      "stockId": 6
+    },
+    {
+      "createdDate": "2024-01-04T19:27:09.137",
+      "lastModifiedDate": "2024-01-04T19:27:09.137",
+      "productId": 12,
+      "quantity": 30,
+      "productName": "Lenovo",
+      "stockId": 5
+    },
+    {
+      "createdDate": "2023-12-25T00:18:18.823",
+      "lastModifiedDate": "2023-12-25T00:18:18.823",
+      "productId": 16,
+      "quantity": 10,
+      "productName": "Vivo Y53",
+      "stockId": 4
+    },
+    {
+      "createdDate": "2023-11-26T14:57:58.433",
+      "lastModifiedDate": "2023-12-22T15:21:13.13",
+      "productId": 4,
+      "quantity": 102,
+      "productName": "Notebook Apple",
+      "stockId": 3
+    },
+    {
+      "createdDate": "2023-09-23T16:24:00.033",
+      "lastModifiedDate": "2023-12-22T18:09:11.713",
+      "productId": 2,
+      "quantity": 7,
+      "productName": "Apple iPhone 14 (128 GB) - Blue",
+      "stockId": 2
+    },
+    {
+      "createdDate": "2023-09-23T16:00:19.01",
+      "lastModifiedDate": "2024-01-04T19:23:36.853",
+      "productId": 1,
+      "quantity": 396,
+      "productName": "Apple Pro 15",
+      "stockId": 1
+    }
+  ] 
+}

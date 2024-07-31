@@ -1,0 +1,35 @@
+<div class="container-fluid">
+
+  <div class="row mt-2 mb-2">
+    <div class="col-12 text-end">
+        <button class="btn btn-primary" routerLink="new-purchase">New Purchase</button>
+    </div>
+  </div>
+  <div class="newPurchaseContainer">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="cardContainer p-3 d-flex flex-wrap justify-content-evenly">
+            <div class="card m-2 shadow rounded-4" style="width: 20rem; height: 10rem;" *ngFor="let purchase of purchaseList">
+                <div class="card-body d-flex flex-column justify-content-evenly align-items-center">
+                  <h6 class="card-subtitle mb-2 text-muted">{{purchase.productName}}</h6>
+                    <div class="row w-100 text-center text-secondary">
+                      <div class="col-4">
+                        <p class="fw-bold">Date</p>
+                        <p>{{purchase.purchaseDate}}</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="fw-bold">Quantity</p>
+                        <p>{{purchase.quantity}}</p>
+                      </div>
+                      <div class="col-4">
+                        <p class="fw-bold">Amount</p>
+                        <p>{{purchase.invoiceAmount}}</p>
+                      </div>
+                    </div>
+                </div>
+            </div> 
+  </div>
+  
+</div>
+
+
