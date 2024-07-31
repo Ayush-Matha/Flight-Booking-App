@@ -1,2 +1,2 @@
-# Flight-Booking-App
-An Angular Project to book flight tickets for users and add or cancel flights for vendors 
+# Stock-Inventory-App
+An Angular Project to manage all the sales,purchase and stock in Inventory.
